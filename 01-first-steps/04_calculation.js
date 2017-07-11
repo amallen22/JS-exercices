@@ -26,3 +26,18 @@ function multiples () {
 }
 
 multiples()
+
+/* Way 2 */
+
+function multiples () {
+  var sum = 0
+  var elements = ''
+  for (var i = 0; i <= 500; i++) {
+    if (i % 23 === 0) {
+      sum += i
+      elements += i + '\t'
+    }
+  }
+  console.log('Elements : ' + elemets)
+  console.log('Sum : ' + total_sum)
+}
